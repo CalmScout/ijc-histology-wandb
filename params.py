@@ -8,12 +8,10 @@ assert hostname in ["apc", "P620"]
 
 PROJECT_NAME = "ijc-histology"
 PATH_PROJECT = Path("/home/anton/Projects/PythonProjects") / PROJECT_NAME
-assert PATH_PROJECT.exists()
 
 PATH_DATA = Path("/mnt/data/ijc-histology-data/") if hostname == "apc" else Path("/mnt/disk4/")
 
 PATH_PATCHES = PATH_DATA / "TCGA-COAD-patches-5-percent"
-assert PATH_PATCHES.exists()
 
 WANDB_PROJECT = "ijc-histology-wandb"
 ENTITY = None
