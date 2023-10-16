@@ -1,0 +1,10 @@
+res2net101d.in1k
+rexnetr_300.sw_in12k_ft_in1k
+seresnextaa101d_32x8d.sw_in12k_ft_in1k_288
+coatnet_0_rw_224.sw_in1k
+vit_large_r50_s32_224.augreg_in21k
+resnext101_32x4d.fb_swsl_ig1b_ft_in1k
+vit_base_r50_s16_224.orig_in21k
+coatnet_rmlp_1_rw2_224.sw_in12k
+inception_v3.tf_in1k
+inception_resnet_v2.tf_ens_adv_in1k
